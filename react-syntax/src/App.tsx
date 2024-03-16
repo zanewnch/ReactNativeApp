@@ -9,20 +9,20 @@ function App() {
   return (
     <>
       {/* <Prac1 /> */}
-      <Prac2
-      title="aaa"
-      content="bbb"
-      >
+      {/* <Prac2 */}
+      {/* title="aaa" */}
+      {/* content="bbb" */}
+      {/* > */}
         {/* 傳遞多個slot */}
-        {{
-        header: <div>Custom Header</div>,
-        main: <div>Custom Main Content</div>,
-        footer: <div>Custom Footer</div>,
-      }}
-      </Prac2>
+        {/* {{ */}
+        {/* header: <div>Custom Header</div>, */}
+        {/* main: <div>Custom Main Content</div>, */}
+        {/* footer: <div>Custom Footer</div>, */}
+      {/* }} */}
+      {/* </Prac2> */}
 
-      <Prac3>
-      </Prac3>
+      {/* <Prac3>
+      </Prac3> */}
 
       <Prac4>
       </Prac4>

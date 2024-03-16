@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from './redux/counterSlice';
+import  { counterReducer,userReducer } from './redux/counterSlice';
+
 
 // 是的，每当你创建一个新的 Redux slice（也就是一个新的 reducer 和一组相关的 actions），你都需要在你的主 store 配置文件中添加它。
 
@@ -7,6 +8,7 @@ import counterReducer from './redux/counterSlice';
 const store = configureStore({
   reducer: {
     counter: counterReducer,
+    user:userReducer
   },
 });
 
