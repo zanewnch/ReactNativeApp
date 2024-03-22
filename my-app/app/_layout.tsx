@@ -6,8 +6,8 @@ export default function Layout() {
   return (
     <>
       {/* <Tabs /> */}
-      {/* <Slot/> */}
-      <Stack/>
+      <Slot/>
+      {/* <Stack/> */}
     </>
   );
 }
